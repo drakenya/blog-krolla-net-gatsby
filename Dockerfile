@@ -19,3 +19,4 @@ COPY . .
 
 USER node
 CMD ["gatsby", "develop", "-H", "0.0.0.0"]
+#CMD ["tail", "-f", "/dev/null"]
