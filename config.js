@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://blog.krolla.net',
   pathPrefix: '/',
-  title: 'Blog by Andrew Kroll',
+  title: 'Blog @ krolla.net',
   subtitle: '',
   copyright: `©${new Date().getFullYear()} Andrew Kroll`,
   disqusShortname: '',
@@ -17,12 +17,12 @@ module.exports = {
     },
     {
       label: 'About',
-      path: '/about'
+      path: 'https://krolla.net/about'
     },
   ],
   author: {
     name: 'Andrew Kroll',
-    photo: 'https://secure.gravatar.com/avatar/68d5a865006e868cd908779a0fd936cb',
+    photo: '/photo.jpg',
     bio: '',
     contacts: {
       email: 'krolla@gmail.com',
