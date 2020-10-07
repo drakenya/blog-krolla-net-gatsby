@@ -1,43 +1,39 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://blog.krolla.net',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Blog by Andrew Kroll',
+  subtitle: '',
+  copyright: `©${new Date().getFullYear()} Andrew Kroll`,
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
+      label: 'krolla.net',
+      path: 'https://krolla.net'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'About',
+      path: '/about'
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Andrew Kroll',
+    photo: 'https://secure.gravatar.com/avatar/68d5a865006e868cd908779a0fd936cb',
+    bio: '',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'krolla@gmail.com',
+      facebook: '',
+      telegram: '',
+      twitter: '',
+      github: '',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: '',
+      instagram: 'krolla.amk',
       line: '',
       gitlab: '',
       weibo: '',
